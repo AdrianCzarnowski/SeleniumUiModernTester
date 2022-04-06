@@ -1,0 +1,906 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html>
+  <head>
+    <title>Logback Log Messages</title>
+<style  type="text/css">
+table { margin-left: 2em; margin-right: 2em; border-left: 2px solid #AAA; }
+TR.even { background: #FFFFFF; }
+TR.odd { background: #EAEAEA; }
+TR.warn TD.Level, TR.error TD.Level, TR.fatal TD.Level {font-weight: bold; color: #FF4040 }
+TD { padding-right: 1ex; padding-left: 1ex; border-right: 2px solid #AAA; }
+TD.Time, TD.Date { text-align: right; font-family: courier, monospace; font-size: smaller; }
+TD.Thread { text-align: left; }
+TD.Level { text-align: right; }
+TD.Logger { text-align: left; }
+TR.header { background: #596ED5; color: #FFF; font-weight: bold; font-size: larger; }
+TD.Exception { background: #A2AEE8; font-family: courier, monospace;}
+</style>
+
+  </head>
+<body>
+<hr/>
+<p>Log session start time Wed Apr 06 11:24:59 CEST 2022</p><p></p>
+
+<table cellspacing="0">
+<tr class="header">
+<td class="Thread">Thread</td>
+<td class="Level">Level</td>
+<td class="Logger">Logger</td>
+<td class="Message">Message</td>
+</tr>
+
+
+<tr class="info even">
+<td class="Thread">main</td>
+<td class="Level">INFO</td>
+<td class="Logger">io.github.bonigarcia.wdm.WebDriverManager</td>
+<td class="Message">Using chromedriver 99.0.4844.51 (resolved driver for Chrome 99)</td>
+</tr>
+
+<tr class="info odd">
+<td class="Thread">main</td>
+<td class="Level">INFO</td>
+<td class="Logger">io.github.bonigarcia.wdm.WebDriverManager</td>
+<td class="Message">Exporting webdriver.chrome.driver as C:\Users\aczarnowski\.cache\selenium\chromedriver\win32\99.0.4844.51\chromedriver.exe</td>
+</tr>
+
+<tr class="info even">
+<td class="Thread">main</td>
+<td class="Level">INFO</td>
+<td class="Logger">FormMethods.class</td>
+<td class="Message">&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;URL downloaded correctly</td>
+</tr>
+
+<tr class="info odd">
+<td class="Thread">main</td>
+<td class="Level">INFO</td>
+<td class="Logger">FormMethods.class</td>
+<td class="Message">&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;basic section was clicked</td>
+</tr>
+
+<tr class="info even">
+<td class="Thread">main</td>
+<td class="Level">INFO</td>
+<td class="Logger">FormMethods.class</td>
+<td class="Message">&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;Section �[35mForm found</td>
+</tr>
+
+<tr class="info odd">
+<td class="Thread">main</td>
+<td class="Level">INFO</td>
+<td class="Logger">FormData.class</td>
+<td class="Message">&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;Created a list of firstnames</td>
+</tr>
+
+<tr class="info even">
+<td class="Thread">main</td>
+<td class="Level">INFO</td>
+<td class="Logger">FormMethods.class</td>
+<td class="Message">&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;selected random firstname from the list</td>
+</tr>
+
+<tr class="info odd">
+<td class="Thread">main</td>
+<td class="Level">INFO</td>
+<td class="Logger">FormData.class</td>
+<td class="Message">&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;Created a list of lastnames</td>
+</tr>
+
+<tr class="info even">
+<td class="Thread">main</td>
+<td class="Level">INFO</td>
+<td class="Logger">FormMethods.class</td>
+<td class="Message">&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;selected random lastname from the list</td>
+</tr>
+
+<tr class="info odd">
+<td class="Thread">main</td>
+<td class="Level">INFO</td>
+<td class="Logger">FormMethods.class</td>
+<td class="Message">&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;random e-mail created correctly</td>
+</tr>
+
+<tr class="info even">
+<td class="Thread">main</td>
+<td class="Level">INFO</td>
+<td class="Logger">FormData.class</td>
+<td class="Message">&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;Age list created</td>
+</tr>
+
+<tr class="info odd">
+<td class="Thread">main</td>
+<td class="Level">INFO</td>
+<td class="Logger">FormMethods.class</td>
+<td class="Message">&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;selected random age from the list</td>
+</tr>
+
+<tr class="info even">
+<td class="Thread">main</td>
+<td class="Level">INFO</td>
+<td class="Logger">FormMethods.class</td>
+<td class="Message">&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;selected random gender</td>
+</tr>
+
+<tr class="info odd">
+<td class="Thread">main</td>
+<td class="Level">INFO</td>
+<td class="Logger">FormMethods.class</td>
+<td class="Message">&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;selected random experience</td>
+</tr>
+
+<tr class="info even">
+<td class="Thread">main</td>
+<td class="Level">INFO</td>
+<td class="Logger">FormMethods.class</td>
+<td class="Message">&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;All available in the profession section are selected</td>
+</tr>
+
+<tr class="info odd">
+<td class="Thread">main</td>
+<td class="Level">INFO</td>
+<td class="Logger">FormMethods.class</td>
+<td class="Message">&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;selected random continents</td>
+</tr>
+
+<tr class="info even">
+<td class="Thread">main</td>
+<td class="Level">INFO</td>
+<td class="Logger">FormMethods.class</td>
+<td class="Message">&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;Switch Commands options have been marked</td>
+</tr>
+
+<tr class="info odd">
+<td class="Thread">main</td>
+<td class="Level">INFO</td>
+<td class="Logger">FormMethods.class</td>
+<td class="Message">&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;WebElement Commands options have been marked</td>
+</tr>
+
+<tr class="info even">
+<td class="Thread">main</td>
+<td class="Level">INFO</td>
+<td class="Logger">FormMethods.class</td>
+<td class="Message">&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;File added properly</td>
+</tr>
+
+<tr class="info odd">
+<td class="Thread">main</td>
+<td class="Level">INFO</td>
+<td class="Logger">FormMethods.class</td>
+<td class="Message">&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;Registration successful</td>
+</tr>
+
+<tr class="info even">
+<td class="Thread">main</td>
+<td class="Level">INFO</td>
+<td class="Logger">FormMethods.class</td>
+<td class="Message">♛♛♛♛♛♛♛♛♛♛♛♛♛VALIDATION PASS♛♛♛♛♛♛♛♛♛♛♛♛♛</td>
+</tr>
+
+<tr class="info odd">
+<td class="Thread">main</td>
+<td class="Level">INFO</td>
+<td class="Logger">AlertTestSetUp.class</td>
+<td class="Message">&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;URL downloaded correctly</td>
+</tr>
+
+<tr class="info even">
+<td class="Thread">main</td>
+<td class="Level">INFO</td>
+<td class="Logger">FormMethods.class</td>
+<td class="Message">&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;basic section was clicked</td>
+</tr>
+
+<tr class="info odd">
+<td class="Thread">main</td>
+<td class="Level">INFO</td>
+<td class="Logger">AlertTestSetUp.class</td>
+<td class="Message">&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;Section �[35mAlerts found</td>
+</tr>
+
+<tr class="info even">
+<td class="Thread">main</td>
+<td class="Level">INFO</td>
+<td class="Logger">AlertTestSetUp.class</td>
+<td class="Message">&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;OK button pressed</td>
+</tr>
+
+<tr class="info odd">
+<td class="Thread">main</td>
+<td class="Level">INFO</td>
+<td class="Logger">AlertTestSetUp.class</td>
+<td class="Message">♛♛♛♛♛♛♛♛♛♛♛♛♛VALIDATION PASS♛♛♛♛♛♛♛♛♛♛♛♛♛</td>
+</tr>
+
+<tr class="info even">
+<td class="Thread">main</td>
+<td class="Level">INFO</td>
+<td class="Logger">AlertTestSetUp.class</td>
+<td class="Message">&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;URL downloaded correctly</td>
+</tr>
+
+<tr class="info odd">
+<td class="Thread">main</td>
+<td class="Level">INFO</td>
+<td class="Logger">FormMethods.class</td>
+<td class="Message">&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;basic section was clicked</td>
+</tr>
+
+<tr class="info even">
+<td class="Thread">main</td>
+<td class="Level">INFO</td>
+<td class="Logger">AlertTestSetUp.class</td>
+<td class="Message">&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;Section �[35mAlerts found</td>
+</tr>
+
+<tr class="info odd">
+<td class="Thread">main</td>
+<td class="Level">INFO</td>
+<td class="Logger">AlertTestSetUp.class</td>
+<td class="Message">&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;Correctly entered text</td>
+</tr>
+
+<tr class="info even">
+<td class="Thread">main</td>
+<td class="Level">INFO</td>
+<td class="Logger">AlertTestSetUp.class</td>
+<td class="Message">♛♛♛♛♛♛♛♛♛♛♛♛♛VALIDATION PASS♛♛♛♛♛♛♛♛♛♛♛♛♛</td>
+</tr>
+
+<tr class="info odd">
+<td class="Thread">main</td>
+<td class="Level">INFO</td>
+<td class="Logger">AlertTestSetUp.class</td>
+<td class="Message">&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;URL downloaded correctly</td>
+</tr>
+
+<tr class="info even">
+<td class="Thread">main</td>
+<td class="Level">INFO</td>
+<td class="Logger">FormMethods.class</td>
+<td class="Message">&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;basic section was clicked</td>
+</tr>
+
+<tr class="info odd">
+<td class="Thread">main</td>
+<td class="Level">INFO</td>
+<td class="Logger">AlertTestSetUp.class</td>
+<td class="Message">&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;Section �[35mAlerts found</td>
+</tr>
+
+<tr class="info even">
+<td class="Thread">main</td>
+<td class="Level">INFO</td>
+<td class="Logger">AlertTestSetUp.class</td>
+<td class="Message">&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;OK button pressed</td>
+</tr>
+
+<tr class="info odd">
+<td class="Thread">main</td>
+<td class="Level">INFO</td>
+<td class="Logger">AlertTestSetUp.class</td>
+<td class="Message">♛♛♛♛♛♛♛♛♛♛♛♛♛VALIDATION PASS♛♛♛♛♛♛♛♛♛♛♛♛♛</td>
+</tr>
+
+<tr class="info even">
+<td class="Thread">main</td>
+<td class="Level">INFO</td>
+<td class="Logger">AlertTestSetUp.class</td>
+<td class="Message">&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;URL downloaded correctly</td>
+</tr>
+
+<tr class="info odd">
+<td class="Thread">main</td>
+<td class="Level">INFO</td>
+<td class="Logger">FormMethods.class</td>
+<td class="Message">&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;basic section was clicked</td>
+</tr>
+
+<tr class="info even">
+<td class="Thread">main</td>
+<td class="Level">INFO</td>
+<td class="Logger">AlertTestSetUp.class</td>
+<td class="Message">&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;Section �[35mAlerts found</td>
+</tr>
+
+<tr class="info odd">
+<td class="Thread">main</td>
+<td class="Level">INFO</td>
+<td class="Logger">AlertTestSetUp.class</td>
+<td class="Message">♛♛♛♛♛♛♛♛♛♛♛♛♛VALIDATION PASS♛♛♛♛♛♛♛♛♛♛♛♛♛</td>
+</tr>
+
+<tr class="info even">
+<td class="Thread">main</td>
+<td class="Level">INFO</td>
+<td class="Logger">AlertTestSetUp.class</td>
+<td class="Message">♛♛♛♛♛♛♛♛♛♛♛♛♛VALIDATION PASS♛♛♛♛♛♛♛♛♛♛♛♛♛</td>
+</tr>
+
+<tr class="info odd">
+<td class="Thread">main</td>
+<td class="Level">INFO</td>
+<td class="Logger">FormSetUp.class</td>
+<td class="Message">&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;URL downloaded correctly</td>
+</tr>
+
+<tr class="info even">
+<td class="Thread">main</td>
+<td class="Level">INFO</td>
+<td class="Logger">FormMethods.class</td>
+<td class="Message">&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;basic section was clicked</td>
+</tr>
+
+<tr class="info odd">
+<td class="Thread">main</td>
+<td class="Level">INFO</td>
+<td class="Logger">FormSetUp.class</td>
+<td class="Message">&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;Section �[35mIframes found</td>
+</tr>
+
+<tr class="info even">
+<td class="Thread">main</td>
+<td class="Level">INFO</td>
+<td class="Logger">FormSetUp.class</td>
+<td class="Message">&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;switch to first Iframe</td>
+</tr>
+
+<tr class="info odd">
+<td class="Thread">main</td>
+<td class="Level">INFO</td>
+<td class="Logger">FormData.class</td>
+<td class="Message">&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;Created a list of firstnames</td>
+</tr>
+
+<tr class="info even">
+<td class="Thread">main</td>
+<td class="Level">INFO</td>
+<td class="Logger">FormSetUp.class</td>
+<td class="Message">&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;selected random firstname from the list</td>
+</tr>
+
+<tr class="info odd">
+<td class="Thread">main</td>
+<td class="Level">INFO</td>
+<td class="Logger">FormData.class</td>
+<td class="Message">&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;Created a list of lastnames</td>
+</tr>
+
+<tr class="info even">
+<td class="Thread">main</td>
+<td class="Level">INFO</td>
+<td class="Logger">FormSetUp.class</td>
+<td class="Message">&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;selected random lastname from the list</td>
+</tr>
+
+<tr class="info odd">
+<td class="Thread">main</td>
+<td class="Level">INFO</td>
+<td class="Logger">FormSetUp.class</td>
+<td class="Message">&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;switch to default Iframe</td>
+</tr>
+
+<tr class="info even">
+<td class="Thread">main</td>
+<td class="Level">INFO</td>
+<td class="Logger">FormSetUp.class</td>
+<td class="Message">&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;switch to second Iframe</td>
+</tr>
+
+<tr class="info odd">
+<td class="Thread">main</td>
+<td class="Level">INFO</td>
+<td class="Logger">FormData.class</td>
+<td class="Message">&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;Created a list of firstnames</td>
+</tr>
+
+<tr class="info even">
+<td class="Thread">main</td>
+<td class="Level">INFO</td>
+<td class="Logger">FormSetUp.class</td>
+<td class="Message">&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;selected random login from the list</td>
+</tr>
+
+<tr class="info odd">
+<td class="Thread">main</td>
+<td class="Level">INFO</td>
+<td class="Logger">FormData.class</td>
+<td class="Message">&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;Created a list of lastnames</td>
+</tr>
+
+<tr class="info even">
+<td class="Thread">main</td>
+<td class="Level">INFO</td>
+<td class="Logger">FormSetUp.class</td>
+<td class="Message">&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;selected random password from the list</td>
+</tr>
+
+<tr class="info odd">
+<td class="Thread">main</td>
+<td class="Level">INFO</td>
+<td class="Logger">FormSetUp.class</td>
+<td class="Message">&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;selected random continents</td>
+</tr>
+
+<tr class="info even">
+<td class="Thread">main</td>
+<td class="Level">INFO</td>
+<td class="Logger">FormSetUp.class</td>
+<td class="Message">&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;selected random experience</td>
+</tr>
+
+<tr class="info odd">
+<td class="Thread">main</td>
+<td class="Level">INFO</td>
+<td class="Logger">FormSetUp.class</td>
+<td class="Message">&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;switch to default Iframe</td>
+</tr>
+
+<tr class="info even">
+<td class="Thread">main</td>
+<td class="Level">INFO</td>
+<td class="Logger">FormMethods.class</td>
+<td class="Message">&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;basic section was clicked</td>
+</tr>
+
+<tr class="info odd">
+<td class="Thread">main</td>
+<td class="Level">INFO</td>
+<td class="Logger">SliderSetUp.class</td>
+<td class="Message">&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;URL downloaded correctly</td>
+</tr>
+
+<tr class="info even">
+<td class="Thread">main</td>
+<td class="Level">INFO</td>
+<td class="Logger">SliderSetUp.class</td>
+<td class="Message">&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;Section �[35mSlider found</td>
+</tr>
+
+<tr class="info odd">
+<td class="Thread">main</td>
+<td class="Level">INFO</td>
+<td class="Logger">SliderSetUp.class</td>
+<td class="Message">&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;Slider is displayed</td>
+</tr>
+
+<tr class="info even">
+<td class="Thread">main</td>
+<td class="Level">INFO</td>
+<td class="Logger">SliderSetUp.class</td>
+<td class="Message">&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;Slider move to value :50</td>
+</tr>
+
+<tr class="info odd">
+<td class="Thread">main</td>
+<td class="Level">INFO</td>
+<td class="Logger">SliderSetUp.class</td>
+<td class="Message">&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;Value are the same as expected</td>
+</tr>
+
+<tr class="info even">
+<td class="Thread">main</td>
+<td class="Level">INFO</td>
+<td class="Logger">SliderSetUp.class</td>
+<td class="Message">&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;Slider is displayed</td>
+</tr>
+
+<tr class="info odd">
+<td class="Thread">main</td>
+<td class="Level">INFO</td>
+<td class="Logger">SliderSetUp.class</td>
+<td class="Message">&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;Slider move to value :80</td>
+</tr>
+
+<tr class="info even">
+<td class="Thread">main</td>
+<td class="Level">INFO</td>
+<td class="Logger">SliderSetUp.class</td>
+<td class="Message">&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;Value are the same as expected</td>
+</tr>
+
+<tr class="info odd">
+<td class="Thread">main</td>
+<td class="Level">INFO</td>
+<td class="Logger">SliderSetUp.class</td>
+<td class="Message">&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;Slider move to value :80</td>
+</tr>
+
+<tr class="info even">
+<td class="Thread">main</td>
+<td class="Level">INFO</td>
+<td class="Logger">SliderSetUp.class</td>
+<td class="Message">&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;Value are the same as expected</td>
+</tr>
+
+<tr class="info odd">
+<td class="Thread">main</td>
+<td class="Level">INFO</td>
+<td class="Logger">SliderSetUp.class</td>
+<td class="Message">&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;Slider is displayed</td>
+</tr>
+
+<tr class="info even">
+<td class="Thread">main</td>
+<td class="Level">INFO</td>
+<td class="Logger">SliderSetUp.class</td>
+<td class="Message">&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;Slider move to value :0</td>
+</tr>
+
+<tr class="info odd">
+<td class="Thread">main</td>
+<td class="Level">INFO</td>
+<td class="Logger">SliderSetUp.class</td>
+<td class="Message">&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;Value are the same as expected</td>
+</tr>
+
+<tr class="info even">
+<td class="Thread">main</td>
+<td class="Level">INFO</td>
+<td class="Logger">SliderSetUp.class</td>
+<td class="Message">&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;Slider is displayed</td>
+</tr>
+
+<tr class="info odd">
+<td class="Thread">main</td>
+<td class="Level">INFO</td>
+<td class="Logger">SliderSetUp.class</td>
+<td class="Message">&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;URL downloaded correctly</td>
+</tr>
+
+<tr class="info even">
+<td class="Thread">main</td>
+<td class="Level">INFO</td>
+<td class="Logger">TooltipTextSetUp.class</td>
+<td class="Message">&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;tooltip text : That&#39;s what this widget is</td>
+</tr>
+
+<tr class="info odd">
+<td class="Thread">main</td>
+<td class="Level">INFO</td>
+<td class="Logger">TooltipTextSetUp.class</td>
+<td class="Message">&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;tooltip text : ThemeRoller: jQuery UI&#39;s theme builder application</td>
+</tr>
+
+<tr class="info even">
+<td class="Thread">main</td>
+<td class="Level">INFO</td>
+<td class="Logger">SliderSetUp.class</td>
+<td class="Message">&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;URL downloaded correctly</td>
+</tr>
+
+<tr class="info odd">
+<td class="Thread">main</td>
+<td class="Level">INFO</td>
+<td class="Logger">AccordionSetUp.class</td>
+<td class="Message">&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;Section �[35mAccording found</td>
+</tr>
+
+<tr class="info even">
+<td class="Thread">main</td>
+<td class="Level">INFO</td>
+<td class="Logger">AccordionSetUp.class</td>
+<td class="Message">Text from first section : Mauris mauris ante, blandit et, ultrices a, suscipit eget, quam. Integer ut neque. Vivamus nisi metus, molestie vel, gravida in, condimentum sit amet, nunc. Nam a nibh. Donec suscipit eros. Nam mi. Proin viverra leo ut odio. Curabitur malesuada. Vestibulum a velit eu ante scelerisque vulputate.</td>
+</tr>
+
+<tr class="info odd">
+<td class="Thread">main</td>
+<td class="Level">INFO</td>
+<td class="Logger">AccordionSetUp.class</td>
+<td class="Message">Text from second section : Sed non urna. Donec et ante. Phasellus eu ligula. Vestibulum sit amet purus. Vivamus hendrerit, dolor at aliquet laoreet, mauris turpis porttitor velit, faucibus interdum tellus libero ac justo. Vivamus non quam. In suscipit faucibus urna.</td>
+</tr>
+
+<tr class="info even">
+<td class="Thread">main</td>
+<td class="Level">INFO</td>
+<td class="Logger">AccordionSetUp.class</td>
+<td class="Message">Text from third section : Nam enim risus, molestie et, porta ac, aliquam ac, risus. Quisque lobortis. Phasellus pellentesque purus in massa. Aenean in pede. Phasellus ac libero ac tellus pellentesque semper. Sed ac felis. Sed commodo, magna quis lacinia ornare, quam ante aliquam nisi, eu iaculis leo purus venenatis dui.
+List item one
+List item two
+List item three</td>
+</tr>
+
+<tr class="info odd">
+<td class="Thread">main</td>
+<td class="Level">INFO</td>
+<td class="Logger">AccordionSetUp.class</td>
+<td class="Message">Text from fourth section : Cras dictum. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Aenean lacinia mauris vel est.
+Suspendisse eu nisl. Nullam ut libero. Integer dignissim consequat lectus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.</td>
+</tr>
+
+<tr class="info even">
+<td class="Thread">main</td>
+<td class="Level">INFO</td>
+<td class="Logger">SliderSetUp.class</td>
+<td class="Message">&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;URL downloaded correctly</td>
+</tr>
+
+<tr class="info odd">
+<td class="Thread">main</td>
+<td class="Level">INFO</td>
+<td class="Logger">ProgressBarSetUp.class</td>
+<td class="Message">&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;Section �[35mProgressbar found</td>
+</tr>
+
+<tr class="info even">
+<td class="Thread">main</td>
+<td class="Level">INFO</td>
+<td class="Logger">ProgressBarSetUp.class</td>
+<td class="Message">&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;Loading complete!!!</td>
+</tr>
+
+<tr class="info odd">
+<td class="Thread">main</td>
+<td class="Level">INFO</td>
+<td class="Logger">SliderSetUp.class</td>
+<td class="Message">&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;URL downloaded correctly</td>
+</tr>
+
+<tr class="info even">
+<td class="Thread">main</td>
+<td class="Level">INFO</td>
+<td class="Logger">AutocompleteSetUp.class</td>
+<td class="Message">&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;Section �[35mAutocomplete found</td>
+</tr>
+
+<tr class="info odd">
+<td class="Thread">main</td>
+<td class="Level">INFO</td>
+<td class="Logger">AutocompleteSetUp.class</td>
+<td class="Message">anders
+andreas
+antal
+Products
+annhhx10
+annk K12
+annttop C13
+People
+anders andersson
+andreas andersson
+andreas johnson</td>
+</tr>
+
+<tr class="info even">
+<td class="Thread">main</td>
+<td class="Level">INFO</td>
+<td class="Logger">AutocompleteSetUp.class</td>
+<td class="Message">&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;List of all available options is visible</td>
+</tr>
+
+<tr class="info odd">
+<td class="Thread">main</td>
+<td class="Level">INFO</td>
+<td class="Logger">AutocompleteSetUp.class</td>
+<td class="Message">&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;Picked random option</td>
+</tr>
+
+<tr class="info even">
+<td class="Thread">main</td>
+<td class="Level">INFO</td>
+<td class="Logger">AutocompleteSetUp.class</td>
+<td class="Message">&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;Value are the same as expected</td>
+</tr>
+
+<tr class="info odd">
+<td class="Thread">main</td>
+<td class="Level">INFO</td>
+<td class="Logger">SliderSetUp.class</td>
+<td class="Message">&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;URL downloaded correctly</td>
+</tr>
+
+<tr class="info even">
+<td class="Thread">main</td>
+<td class="Level">INFO</td>
+<td class="Logger">MenuTestSetUp.class</td>
+<td class="Message">&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;Section �[35mMusic found</td>
+</tr>
+
+<tr class="info odd">
+<td class="Thread">main</td>
+<td class="Level">INFO</td>
+<td class="Logger">MenuTestSetUp.class</td>
+<td class="Message">&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;Music picked</td>
+</tr>
+
+<tr class="info even">
+<td class="Thread">main</td>
+<td class="Level">INFO</td>
+<td class="Logger">MenuTestSetUp.class</td>
+<td class="Message">&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;Jazz picked</td>
+</tr>
+
+<tr class="info odd">
+<td class="Thread">main</td>
+<td class="Level">INFO</td>
+<td class="Logger">MenuTestSetUp.class</td>
+<td class="Message">&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;Modern picked</td>
+</tr>
+
+<tr class="info even">
+<td class="Thread">main</td>
+<td class="Level">INFO</td>
+<td class="Logger">SliderSetUp.class</td>
+<td class="Message">&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;URL downloaded correctly</td>
+</tr>
+
+<tr class="info odd">
+<td class="Thread">main</td>
+<td class="Level">INFO</td>
+<td class="Logger">ModalDialogSetUp.class</td>
+<td class="Message">Tomax YYYY Wenta@wp.pl 25344334</td>
+</tr>
+
+<tr class="info even">
+<td class="Thread">main</td>
+<td class="Level">INFO</td>
+<td class="Logger">ModalDialogSetUp.class</td>
+<td class="Message">Tomax YYYY Wenta@wp.pl 25344334</td>
+</tr>
+
+<tr class="info odd">
+<td class="Thread">main</td>
+<td class="Level">INFO</td>
+<td class="Logger">ModalDialogSetUp.class</td>
+<td class="Message">♛♛♛♛♛♛♛♛♛♛♛♛♛VALIDATION PASS♛♛♛♛♛♛♛♛♛♛♛♛♛</td>
+</tr>
+
+<tr class="info even">
+<td class="Thread">main</td>
+<td class="Level">INFO</td>
+<td class="Logger">DataPickerPage.class</td>
+<td class="Message">&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;Picked today</td>
+</tr>
+
+<tr class="info odd">
+<td class="Thread">main</td>
+<td class="Level">INFO</td>
+<td class="Logger">DataPickerPage.class</td>
+<td class="Message">&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;Picked random day of previous month</td>
+</tr>
+
+<tr class="info even">
+<td class="Thread">main</td>
+<td class="Level">INFO</td>
+<td class="Logger">DataPickerPage.class</td>
+<td class="Message">&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;Picked first day of next month</td>
+</tr>
+
+<tr class="info odd">
+<td class="Thread">main</td>
+<td class="Level">INFO</td>
+<td class="Logger">DataPickerPage.class</td>
+<td class="Message">&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;Picked 31.01.2023</td>
+</tr>
+
+<tr class="info even">
+<td class="Thread">main</td>
+<td class="Level">INFO</td>
+<td class="Logger">DataPickerPage.class</td>
+<td class="Message">&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;Picked random date of next year</td>
+</tr>
+
+<tr class="info odd">
+<td class="Thread">main</td>
+<td class="Level">INFO</td>
+<td class="Logger">DroppableTestSetUp.class</td>
+<td class="Message">&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;Section �[35mInteractions found</td>
+</tr>
+
+<tr class="info even">
+<td class="Thread">main</td>
+<td class="Level">INFO</td>
+<td class="Logger">DroppableTestSetUp.class</td>
+<td class="Message">&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;dragged and dropped!</td>
+</tr>
+
+<tr class="info odd">
+<td class="Thread">main</td>
+<td class="Level">INFO</td>
+<td class="Logger">DroppableTestSetUp.class</td>
+<td class="Message">♛♛♛♛♛♛♛♛♛♛♛♛♛VALIDATION PASS♛♛♛♛♛♛♛♛♛♛♛♛♛</td>
+</tr>
+
+<tr class="info even">
+<td class="Thread">main</td>
+<td class="Level">INFO</td>
+<td class="Logger">DroppableTestSetUp.class</td>
+<td class="Message">&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;Section �[35mInteractions found</td>
+</tr>
+
+<tr class="info odd">
+<td class="Thread">main</td>
+<td class="Level">INFO</td>
+<td class="Logger">modernTester.interactions.pages.DraggablePage</td>
+<td class="Message">&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;Square founded</td>
+</tr>
+
+<tr class="info even">
+<td class="Thread">main</td>
+<td class="Level">INFO</td>
+<td class="Logger">modernTester.interactions.pages.DraggablePage</td>
+<td class="Message">&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;Square moved</td>
+</tr>
+
+<tr class="info odd">
+<td class="Thread">main</td>
+<td class="Level">INFO</td>
+<td class="Logger">DroppableTestSetUp.class</td>
+<td class="Message">&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;Section �[35mInteractions found</td>
+</tr>
+
+<tr class="info even">
+<td class="Thread">main</td>
+<td class="Level">INFO</td>
+<td class="Logger">SelectablePage.class</td>
+<td class="Message">&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;Options 1,3 and 4 picked</td>
+</tr>
+
+<tr class="info odd">
+<td class="Thread">main</td>
+<td class="Level">INFO</td>
+<td class="Logger">SelectablePage.class</td>
+<td class="Message">♛♛♛♛♛♛♛♛♛♛♛♛♛VALIDATION PASS♛♛♛♛♛♛♛♛♛♛♛♛♛</td>
+</tr>
+
+<tr class="info even">
+<td class="Thread">main</td>
+<td class="Level">INFO</td>
+<td class="Logger">DroppableTestSetUp.class</td>
+<td class="Message">&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;Section �[35mInteractions found</td>
+</tr>
+
+<tr class="info odd">
+<td class="Thread">main</td>
+<td class="Level">INFO</td>
+<td class="Logger">ResizablePage.class</td>
+<td class="Message">&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;resizable point founded</td>
+</tr>
+
+<tr class="info even">
+<td class="Thread">main</td>
+<td class="Level">INFO</td>
+<td class="Logger">ResizablePage.class</td>
+<td class="Message">&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;Resizable confirmed!</td>
+</tr>
+
+<tr class="info odd">
+<td class="Thread">main</td>
+<td class="Level">INFO</td>
+<td class="Logger">DroppableTestSetUp.class</td>
+<td class="Message">&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;Section �[35mInteractions found</td>
+</tr>
+
+<tr class="info even">
+<td class="Thread">main</td>
+<td class="Level">INFO</td>
+<td class="Logger">SortablePage.class</td>
+<td class="Message">&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;Options shuffled</td>
+</tr>
+
+<tr class="info odd">
+<td class="Thread">main</td>
+<td class="Level">INFO</td>
+<td class="Logger">SortablePage.class</td>
+<td class="Message">[5, 4, 7, 3, 1, 2, 6]</td>
+</tr>
+
+<tr class="info even">
+<td class="Thread">main</td>
+<td class="Level">INFO</td>
+<td class="Logger">SortablePage.class</td>
+<td class="Message">♛♛♛♛♛♛♛♛♛♛♛♛♛VALIDATION PASS♛♛♛♛♛♛♛♛♛♛♛♛♛</td>
+</tr>
+
+<tr class="info odd">
+<td class="Thread">main</td>
+<td class="Level">INFO</td>
+<td class="Logger">HighSitePage.class</td>
+<td class="Message">♛♛♛♛♛♛♛♛♛♛♛♛♛VALIDATION PASS♛♛♛♛♛♛♛♛♛♛♛♛♛</td>
+</tr>
+
+<tr class="info even">
+<td class="Thread">main</td>
+<td class="Level">INFO</td>
+<td class="Logger">HighSitePage.class</td>
+<td class="Message">&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;Screenshot taken</td>
+</tr>
