@@ -18,7 +18,6 @@ public class HighSitePage extends TestBase {
 
     private static Logger log = LoggerFactory.getLogger("HighSitePage.class");
 
-    private static Random random;
     private static String buttonCss = "#scroll-button";
 
     public static void scrollToButton() {
@@ -28,7 +27,6 @@ public class HighSitePage extends TestBase {
         Assertions.assertTrue(button.isDisplayed());
         log.info(AlertPage.VALIDATION_PASS);
     }
-
 
     public static void takeScrnSht() {
         TakesScreenshot screenshot = ((TakesScreenshot) driver);
