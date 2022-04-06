@@ -21,7 +21,6 @@ public class ResizablePage extends TestBase {
 
     public static void resizable() {
         WebElement resizable = driver.findElement(By.cssSelector(resizablePointCss));
-
         Actions actions = new Actions(driver);
         actions.dragAndDropBy(resizable, 10, 0).build().perform();
         actions.dragAndDropBy(resizable, 0, 10).build().perform();
