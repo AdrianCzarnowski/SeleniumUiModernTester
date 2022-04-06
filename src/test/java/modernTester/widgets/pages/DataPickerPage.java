@@ -67,7 +67,7 @@ public class DataPickerPage extends TestBase {
     }
     public static void pickRandomDatePreviousYear() {
         new DataPickerPage();
-        int randomMonth = random.nextInt(11);
+        int randomMonth = random.nextInt(12);
         int randomDay = random.nextInt(31);
         for (int i = 0; i < randomMonth; i++) {
             WebElement nextButton = driver.findElement(By.cssSelector(nextMonthButton));
