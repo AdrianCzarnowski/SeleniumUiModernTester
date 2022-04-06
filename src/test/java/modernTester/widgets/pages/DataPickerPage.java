@@ -18,7 +18,6 @@ public class DataPickerPage extends TestBase {
     private static Logger log = LoggerFactory.getLogger("DataPickerPage.class");
 
     private static String dataPickerCss = "#datepicker";
-    private static String daysPickerCss = "td";
     private static String nextMonthButton  = "a.ui-datepicker-next";
     private static String previousMonthButton  = "a.ui-datepicker-prev";
 
@@ -79,7 +78,7 @@ public class DataPickerPage extends TestBase {
     }
 
     public static void chooseDay(String day) {
-        List<WebElement> choice = driver.findElements(By.tagName(dataPickerCss));
+        List<WebElement> choice = driver.findElements(By.cssSelector(dataPickerCss));
         for (WebElement e : choice){
             if (e.getText().equals(day)){
                 e.click();

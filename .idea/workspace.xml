@@ -6,6 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="64ccd6e2-268f-49b3-b9ad-203220165f33" name="Changes" comment="inital">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/modernTester/widgets/pages/DataPickerPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/modernTester/widgets/pages/DataPickerPage.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,6 +70,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="MainTest.dataPicker" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Lesson6JUnit" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="modernTester.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="modernTester" />
+      <option name="MAIN_CLASS_NAME" value="modernTester.MainTest" />
+      <option name="METHOD_NAME" value="dataPicker" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="MainTest.high" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Lesson6JUnit" />
       <extension name="coverage">
@@ -88,6 +105,7 @@
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.MainTest (1)" />
+        <item itemvalue="JUnit.MainTest.dataPicker" />
         <item itemvalue="JUnit.MainTest.high" />
         <item itemvalue="JUnit.MainTest" />
       </list>
@@ -123,7 +141,14 @@
       <option name="project" value="LOCAL" />
       <updated>1649239570401</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="inital">
+      <created>1649239741162</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1649239741162</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
