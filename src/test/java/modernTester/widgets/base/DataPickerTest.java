@@ -19,7 +19,6 @@ public class DataPickerTest extends TestBase {
         DataPickerPage.pickLastDayJanuaryPreviousYear();
         DataPickerPage.pickRandomDatePreviousYear();
     }
-
 }
 
 

@@ -16,6 +16,4 @@ public class ModalDialogTest extends TestBase {
         ModalDialogPage.createNewUser();
         ModalDialogPage.userValidation();
     }
-
-
 }

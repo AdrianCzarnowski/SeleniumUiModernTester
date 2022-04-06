@@ -16,6 +16,5 @@ public class AccordionTest {
         AccordionPage.section2GetText();
         AccordionPage.section3GetText();
         AccordionPage.section4GetText();
-
     }
 }

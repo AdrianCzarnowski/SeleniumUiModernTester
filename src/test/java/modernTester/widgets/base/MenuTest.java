@@ -16,6 +16,5 @@ public class MenuTest extends TestBase {
         MenuTestPage.menuSection();
         MenuTestPage.pickMusic();
         MenuTestPage.pickJazzNextModern();
-
     }
 }

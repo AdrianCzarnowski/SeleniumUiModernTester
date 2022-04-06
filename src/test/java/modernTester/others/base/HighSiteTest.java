@@ -13,8 +13,5 @@ public class HighSiteTest extends TestBase {
         driver.get("https://seleniumui.moderntester.pl/high-site.php");
         HighSitePage.scrollToButton();
         HighSitePage.takeScrnSht();
-
-
-
     }
 }

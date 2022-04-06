@@ -58,5 +58,4 @@ public class ModalDialogPage extends TestBase {
         assertThat(user, equalTo(userValidation.getText()));
         log.info(AlertPage.VALIDATION_PASS);
     }
-
 }

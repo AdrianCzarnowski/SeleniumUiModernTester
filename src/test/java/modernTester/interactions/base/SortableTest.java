@@ -15,7 +15,6 @@ public class SortableTest extends TestBase {
         DroppablePage.interactionsSectionPrep();
         SortablePage.sortablePageSet();
         SortablePage.sortableListAndShuffle();
-
     }
 }
 

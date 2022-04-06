@@ -78,5 +78,4 @@ public class SliderPage extends TestBase {
         assertThat(sliderPercent, equalTo("left: 0%;"));
         log.info(CONFIRM_VALIDATION);
     }
-
 }

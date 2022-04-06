@@ -71,7 +71,6 @@ public class AccordionPage  {
         String Section4TextToString = Section4_Text.getText();
         log.info("Text from fourth section : " + Section4TextToString);
     }
-
 }
 
 

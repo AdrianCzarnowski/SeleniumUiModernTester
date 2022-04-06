@@ -40,7 +40,6 @@ public class AlertPage extends TestBase {
         String alertMsg = driver.findElement(By.xpath(delayedAlertMsgXpath)).getText();
         assertThat(alertMsg, equalTo("OK button pressed"));
         log.info(VALIDATION_PASS);
-
     }
 
     public static void driverPrepAlertsSection() {

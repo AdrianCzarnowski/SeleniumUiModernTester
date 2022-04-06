@@ -27,6 +27,4 @@ public class ProgressBarPage extends TestBase {
         wait.until(ExpectedConditions.attributeContains(progressbar, "class", "ui-progressbar-complete"));
         log.info("<<<<<<<<<<<<<<<<<<<<<<<<Loading complete!!!");
     }
-
-
 }

@@ -50,7 +50,6 @@ public class AutocompletePage extends TestBase {
 
         assertThat(valueRandomElement, equalTo(searchText));
         log.info(SliderPage.CONFIRM_VALIDATION);
-
     }
 }
 

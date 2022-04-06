@@ -16,5 +16,4 @@ public class DraggableTest extends TestBase {
         DraggablePage.draggableSectionPrep();
         DraggablePage.squareMove();
     }
-
 }
