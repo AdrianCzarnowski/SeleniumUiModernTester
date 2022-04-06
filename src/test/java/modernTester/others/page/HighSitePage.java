@@ -5,11 +5,14 @@ import modernTester.basic.pages.AlertPage;
 import org.apache.commons.io.FileUtils;
 import org.junit.jupiter.api.Assertions;
 import org.openqa.selenium.*;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 import java.io.File;
 import java.io.IOException;
+import java.time.Duration;
 import java.time.LocalDate;
 import java.util.Random;
 
@@ -23,8 +26,9 @@ public class HighSitePage extends TestBase {
     public static void scrollToButton() {
         JavascriptExecutor js =(JavascriptExecutor) driver;
         js.executeScript("window.scrollBy(0,2000)", "");
+        WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(15));
         WebElement button = driver.findElement(By.cssSelector(buttonCss));
-        Assertions.assertTrue(button.isDisplayed());
+        wait.until(ExpectedConditions.visibilityOf(button));
         log.info(AlertPage.VALIDATION_PASS);
     }
 

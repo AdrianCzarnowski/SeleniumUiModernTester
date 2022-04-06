@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="64ccd6e2-268f-49b3-b9ad-203220165f33" name="Changes" comment="inital" />
+    <list default="true" id="64ccd6e2-268f-49b3-b9ad-203220165f33" name="Changes" comment="inital">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/modernTester/others/page/HighSitePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/modernTester/others/page/HighSitePage.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -36,7 +39,7 @@
       <recent name="C:\Users\aczarnowski\IdeaProjects\SeleniumModern\src\main\resources" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.MainTest (1)">
+  <component name="RunManager" selected="JUnit.MainTest.high">
     <configuration name="MainTest (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Lesson6JUnit" />
       <extension name="coverage">
@@ -67,19 +70,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="JetRunConfigurationType">
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
-      <option name="filePath" />
+    <configuration name="MainTest.high" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Lesson6JUnit" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="modernTester.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="modernTester" />
+      <option name="MAIN_CLASS_NAME" value="modernTester.MainTest" />
+      <option name="METHOD_NAME" value="high" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.MainTest.high" />
         <item itemvalue="JUnit.MainTest (1)" />
         <item itemvalue="JUnit.MainTest" />
       </list>
